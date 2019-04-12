@@ -1,0 +1,2 @@
+--archive --backup -f -H /etc/ld.so.conf /etc/ld.so.conf.backup
+

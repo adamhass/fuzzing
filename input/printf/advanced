@@ -1,0 +1,1 @@
+printf "Your home folder is %s.\n" $HOME
