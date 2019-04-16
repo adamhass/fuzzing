@@ -1,1 +1,0 @@
-if=/dev/sda1 of=/dev/sdb1 bs=4096 conv=noerror,sync
