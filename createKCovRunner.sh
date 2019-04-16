@@ -1,0 +1,20 @@
+# Make runnable .sh files with the test cases prepared for submission
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/date "$0' ./submission/date.txt > ./kcovRunners/date.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/df "$0' ./submission/df.txt > ./kcovRunners/df.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/echo "$0' ./submission/echo.txt > ./kcovRunners/echo.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/ln "$0' ./submission/ln.txt > ./kcovRunners/ln.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/mkdir "$0' ./submission/mkdir.txt > ./kcovRunners/mkdir.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/mv "$0' ./submission/mv.txt > ./kcovRunners/mv.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/pwd "$0' ./submission/pwd.txt > ./kcovRunners/pwd.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/touch "$0' ./submission/touch.txt > ./kcovRunners/touch.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/uname "$0' ./submission/uname.txt > ./kcovRunners/uname.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/cp "$0' ./submission/cp.txt > ./kcovRunners/cp.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/dd "$0' ./submission/dd.txt > ./kcovRunners/dd.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/dir "$0' ./submission/dir.txt > ./kcovRunners/dir.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/false "$0' ./submission/false.txt > ./kcovRunners/false.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/ls "$0' ./submission/ls.txt > ./kcovRunners/ls.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/mktemp "$0' ./submission/mktemp.txt > ./kcovRunners/mktemp.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/printf "$0' ./submission/printf.txt > ./kcovRunners/printf.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/sleep "$0' ./submission/sleep.txt > ./kcovRunners/sleep.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/true "$0' ./submission/true.txt > ./kcovRunners/true.sh
+awk '$0="kcov --collect-only /root/coverage/ /root/coreutils/src/vdir "$0' ./submission/vdir.txt > ./kcovRunners/vdir.sh
