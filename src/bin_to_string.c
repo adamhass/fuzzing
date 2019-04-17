@@ -7,7 +7,7 @@
 */
 
 #include<stdio.h>
-#include "/Users/adam/Documents/CINTE/5/devops/fuzzing/afl-2.52b/experimental/argv_fuzzing/argv-fuzz-inl.h"
+#include "/root/afl/experimental/argv_fuzzing/argv-fuzz-inl.h"
 
 int
 main (int argc, char **argv)
