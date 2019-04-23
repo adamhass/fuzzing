@@ -1,3 +1,5 @@
+--help
+--version
 "%s\n" "hello printf"
 "%d\n" "hello printf"
 "%d\n" "152.3"

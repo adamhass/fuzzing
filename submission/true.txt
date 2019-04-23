@@ -1,3 +1,5 @@
+--version
+--help
 --false
 versio 
 versio 
