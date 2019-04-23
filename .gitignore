@@ -1,6 +1,7 @@
 afl-instrumented/
 output/
 aflcov-reports/
+coreutils-gcov/
 *.backup/
 # Prerequisites
 *.d
