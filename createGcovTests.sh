@@ -1,0 +1,20 @@
+# Make runnable .sh files with the test cases prepared for submission
+awk '$0="/root/coreutils-gcov/src/date "$0' ./submission/date.txt > ./tests/date.sh
+awk '$0="/root/coreutils-gcov/src/df "$0' ./submission/df.txt > ./tests/df.sh
+awk '$0="/root/coreutils-gcov/src/echo "$0' ./submission/echo.txt > ./tests/echo.sh
+awk '$0="/root/coreutils-gcov/src/ln "$0' ./submission/ln.txt > ./tests/ln.sh
+awk '$0="/root/coreutils-gcov/src/mkdir "$0' ./submission/mkdir.txt > ./tests/mkdir.sh
+awk '$0="/root/coreutils-gcov/src/mv "$0' ./submission/mv.txt > ./tests/mv.sh
+awk '$0="/root/coreutils-gcov/src/pwd "$0' ./submission/pwd.txt > ./tests/pwd.sh
+awk '$0="/root/coreutils-gcov/src/touch "$0' ./submission/touch.txt > ./tests/touch.sh
+awk '$0="/root/coreutils-gcov/src/uname "$0' ./submission/uname.txt > ./tests/uname.sh
+awk '$0="/root/coreutils-gcov/src/cp "$0' ./submission/cp.txt > ./tests/cp.sh
+awk '$0="/root/coreutils-gcov/src/dd "$0' ./submission/dd.txt > ./tests/dd.sh
+awk '$0="/root/coreutils-gcov/src/dir "$0' ./submission/dir.txt > ./tests/dir.sh
+awk '$0="/root/coreutils-gcov/src/false "$0' ./submission/false.txt > ./tests/false.sh
+awk '$0="/root/coreutils-gcov/src/ls "$0' ./submission/ls.txt > ./tests/ls.sh
+awk '$0="/root/coreutils-gcov/src/mktemp "$0' ./submission/mktemp.txt > ./tests/mktemp.sh
+awk '$0="/root/coreutils-gcov/src/printf "$0' ./submission/printf.txt > ./tests/printf.sh
+awk '$0="/root/coreutils-gcov/src/sleep "$0' ./submission/sleep.txt > ./tests/sleep.sh
+awk '$0="/root/coreutils-gcov/src/true "$0' ./submission/true.txt > ./tests/true.sh
+awk '$0="/root/coreutils-gcov/src/vdir "$0' ./submission/vdir.txt > ./tests/vdir.sh
